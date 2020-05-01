@@ -29,4 +29,4 @@ COPY --from=build /xmrig/xmrig /xmrig/
 USER miner
 WORKDIR /xmrig
 ENTRYPOINT ["./xmrig"]
-CMD ["--url=qrl.fungibly.xyz:9999", "--user=Q0103008fdde861cae98046eb9087d74e88b7a162640c5a4442434bc4269f2d117bf2303b881aec", "--pass=x@azure", "-k", "--tls", "-t 4", "--donate-level 1"]˚
+CMD ["--url=qrl.fungibly.xyz:9999", "--user=Q0103008fdde861cae98046eb9087d74e88b7a162640c5a4442434bc4269f2d117bf2303b881aec", "--pass=x@azure", "-k", "--tls", "-t 4"]˚
